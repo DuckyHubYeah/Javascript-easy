@@ -17,34 +17,3 @@
 
 </body>
 </html>
-3. External CSS (Using an external .css file)
-If you want to keep things even more organized, you can place your styles in a separate CSS file (e.g., styles.css) and link it in the <head> section. For example:
-
-Create the styles.css file:
-
-css
-Copy
-Edit
-#demo {
-    color: green; /* Change text color to green */
-}
-Link the CSS file in your HTML:
-
-html
-Copy
-Edit
-<!DOCTYPE html>
-<html>
-<head>
-    <link rel="stylesheet" type="text/css" href="styles.css">
-</head>
-<body>
-
-<h2>What Can JavaScript Do?</h2>
-
-<p id="demo">JavaScript can change HTML content.</p>
-
-<button type="button" onclick='document.getElementById("demo").innerHTML = "Hello JavaScript!"'>Click Me!</button>
-
-</body>
-</html>
